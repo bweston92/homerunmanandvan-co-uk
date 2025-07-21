@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rsync -avr ./old/ root@homerunmanandvan.co.uk:/var/www/html/
+rsync -avr ./www/ root@homerunmanandvan.co.uk:/var/www/html/
