@@ -1,0 +1,183 @@
+/**
+ * (C)Copyright WebOD.co.uk
+ * @author Bradley Weston (WebOD Developer) <bradwestonwigston@gmail.com>
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/backgrounds/body_repeat_y.jpg) repeat-y;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background: url(../images/backgrounds/header_repeat_x.jpg) repeat-x;
+	height: 64px;
+}
+
+header h1 {
+	float: left;
+	color: #fff;
+	margin: 14px 0 0 25px;
+	padding: 0;
+	font-size: 24px;
+}
+
+header a.logoutlink {
+	float: right;
+	display: block;
+	background: url(../images/logout_icon.png) no-repeat;
+	width: 28px;
+	height: 27px;
+	text-indent: -999999px;
+	margin: 15px 7px 0 0;
+}
+
+aside {
+	position: absolute;
+	top: 94px;
+	left: 0;
+	padding: 0 0 43px 0;
+	width: 280px;
+}
+
+aside nav {
+	margin: 19px 0 0 15px;
+}
+
+aside nav span {
+	color: #1f1f20;
+	text-shadow: 0 1px 0 #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+aside nav ul {
+	margin: 5px 0;
+	padding: 0 0 0 14px;
+}
+
+aside nav ul li {
+	list-style: none;
+	margin: 14px 0;
+}
+
+aside nav ul li a {
+	color: #666666;
+	text-shadow: 0 1px 0 #fff;
+	font-size: 16px;
+	text-decoration: none;
+	display:block;
+	padding-left: 20px;
+}
+
+aside nav ul li a.icon {
+	background: url(../images/menuitemssprite.png) no-repeat;
+}
+
+aside nav ul li a.icon.icon-email {
+	background-position: 0 0;
+}
+
+aside nav ul li a.icon.icon-settings {
+	background-position: 0 -18px;
+}
+
+aside nav ul li a.icon.icon-add {
+	background-position: 0 -38px;
+}
+
+aside nav ul li a.icon.icon-mag {
+	background-position: 0 -57px;
+}
+
+aside nav ul li a:hover {
+	
+}
+
+section {
+	margin: 5px 10px 5px 288px;
+	padding: 10px 10px 53px 6px;
+}
+
+section a {
+	color: #666666;
+	text-shadow: 0 1px 0 #fff;
+	text-decoration: underline;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	left: 0;
+	background: #e2e2e5;
+	padding: 8px 9px;
+	font-size: 11px;
+	text-align: left;
+	color: #666666;
+	text-shadow: 0 1px 0 #fff;
+	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;
+}
+
+footer a {
+	color: #666666;
+	text-shadow: 0 1px 0 #fff;
+	text-decoration: underline;
+}
+
+.info {
+	font-size: 12px;
+	color: #222;
+}
+
+.listtable {
+	width: 100%;
+}
+
+.listtable tr {
+	
+}
+
+.listtable tr td,
+.listtable tr th {
+	
+}
+
+.listtable tr th {
+	font-weight: bold;
+	padding: 9px 6px;
+	background: #eaeaea;
+	color: #222222;
+	text-shadow: 0 1px 0 #fff;
+}
+
+.listtable tr td {
+	padding: 6px 5px;
+	background: #f6f6f6;
+	border-bottom: 1px dashed #c7c7c7;
+	color: #2e2d2d;
+}
+
+.listtable tr:nth-child(even) td {
+	background: #fefefe !important;
+}
+
+
+a.paddthislink {padding: 7px;display: block;}
+.ta-right {text-align: right;}
+
+ul.pricing_sort li,
+ul.quote_sort li {
+	list-style: none;
+	padding: 4px 6px;
+	margin: 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #222;
+	color: #222;
+}
