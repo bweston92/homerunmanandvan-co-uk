@@ -37,8 +37,9 @@
                   <a class="nav-link" href="/getaquote.php">Get A Quote</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="{Define.FBURL}" target="_blank">
-                    <img src="{Page.getStyleUrl}images/facebook.png" width="95" height="16" border="0">
+                  <a class="nav-link" href="{Define.GOOGLEURL}" target="_blank">
+                    <img src="{Page.getStyleUrl}images/gicon.png" width="26" height="26" border="0">
+                      Reviews
                   </a>
                 </li>
               </ul>
